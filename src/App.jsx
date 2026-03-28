@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 // ─── ข้อมูลจำลองในหน่วยความจำ ─────────────────────────────────────────────────
 const DEMO_USERS = [
   { id: "1", name: "สมชาย ใจดี", email: "employee@company.com", password: "1234", role: "employee", employeeId: "EMP001", department: "IT" },
+  { id: "1", name: "สมชาย ใจร้าย", email: "employee@company.com", password: "1234", role: "employee", employeeId: "EMP002", department: "DATA" },
   { id: "2", name: "สมหญิง ตรวจดี", email: "reviewer@company.com", password: "1234", role: "reviewer", employeeId: "REV001", department: "HR" },
   { id: "3", name: "นายอนุมัติ เก่งมาก", email: "approver@company.com", password: "1234", role: "approver", employeeId: "APR001", department: "Management" },
   { id: "4", name: "นางบัญชี ถูกต้อง", email: "accountant@company.com", password: "1234", role: "accountant", employeeId: "ACC001", department: "Finance" },
