@@ -15,6 +15,7 @@ const INITIAL_BENEFITS = [
   { id: "b3", benefitId: "BEN003", type: "travel", name: "ท่องเที่ยวประจำปี", description: "งบท่องเที่ยวสำหรับพนักงานและครอบครัว", maxAmount: 15000, icon: "✈️" },
   { id: "b4", benefitId: "BEN004", type: "funeral", name: "ค่าจัดงานศพ", description: "ค่าจัดการงานศพกรณีบุพการีเสียชีวิต", maxAmount: 50000, icon: "🕯️" },
   { id: "b5", benefitId: "BEN005", type: "maternity", name: "คลอดบุตร", description: "ค่าใช้จ่ายในการคลอดบุตร", maxAmount: 25000, icon: "👶" },
+  { id: "b5", benefitId: "BEN006", type: "maternity", name: "คลอดบุตร2", description: "ค่าใช้จ่ายในการคลอดบุตร2", maxAmount: 35000, icon: "👶" },
 ];
 
 const INITIAL_REQUESTS = [
